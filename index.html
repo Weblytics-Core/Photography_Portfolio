@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography By Subhadip Ghosh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="https://drive.google.com/thumbnail?id=1nwa7FvDtdZK8BklbVr6if_S2qol2Dv-W&sz=w1000" type="image/x-icon">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1D1YEJZM57"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1D1YEJZM57');
+</script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="logo-container">
+            <div class="logo">
+                <h1><img src="https://drive.google.com/thumbnail?id=1haXY3q5C8RRNCQI5KxVMe1pHQqVdD5jL&sz=w1000" alt="Profile Logo" class="profile-logo">Photography Portfolio</h1>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button class="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </button>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="slideshow-container">
+            <div class="slides">
+                <!-- Slides will be dynamically added here by JavaScript -->
+            </div>
+            <button class="slide-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slide-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            <div class="slide-dots"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Capturing Nature's Beauty</h1>
+            <p>Professional photography by Subhadip Ghosh</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <!-- Gallery items will be dynamically added here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="https://drive.google.com/thumbnail?id=1haXY3q5C8RRNCQI5KxVMe1pHQqVdD5jL&sz=w1000" alt="Subhadip Ghosh" class="profile-image">
+            <div class="about-text">
+                <h3>Subhadip Ghosh</h3>
+                <p>I am a passionate  photographer with over 5 years of experience capturing the beauty of nature and historical place. My work focuses on documenting  natural habitats.</p>
+                <p>Additionally, I am open to exploring new techniques and styles in photography to enhance my skills further.</p>
+                <p>My portfolio showcases a variety of projects that reflect my dedication and love for photography.</p>
+                <p>I am also interested in participating in exhibitions and workshops to share my work and learn from others in the field.</p>
+                <p>My work has been featured in various online platforms and I am always looking for new opportunities to showcase my art.</p>
+                <p>Feel free to reach out for collaborations or inquiries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>I'm always eager to explore new opportunities and take on exciting photography projects. If you have a project in mind, or just want to say hi, feel free to send me a message.</p>
+                <div class="contact-methods">
+                    <a href="https://twitter.com/subhadipdotcom/" target="_blank" class="contact-link">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="https://discord.gg/yBCkxWy7N4" target="_blank" class="contact-link">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord</span>
+                    </a>
+                    <a href="https://pin.it/4V5hoF5Mq" target="_blank" class="contact-link">
+                        <i class="fa-brands fa-pinterest"></i>
+                        <span>Pinterest</span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="https://formsubmit.co/connect@subhadipghosh.co.in" method="POST" enctype="multipart/form-data">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="thanks.html">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="cart_summary" id="cart-summary">
+                    <input type="hidden" name="total_amount" id="total-amount">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="form-group upload-group">
+                        <label for="file-upload" class="upload-label">
+                            <i class="fas fa-file-upload"></i> Attach Documents
+                        </label>
+                        <input type="file" id="file-upload" name="attachment" accept=".pdf,.doc,.docx,.txt" multiple style="display:none;">
+                        <div id="file-list" class="file-list"></div>
+                    </div>
+                    <div class="form-group voice-group">
+                        <div class="voice-controls">
+                            <button type="button" id="record-voice-btn" class="voice-btn" aria-pressed="false">
+                                <i class="fas fa-microphone"></i>
+                                <span class="record-text">Record</span>
+                            </button>
+                            <label class="voice-label" for="record-voice-btn">
+                                Voice Message
+                            </label>
+                            <button type="button" id="remove-voice-btn" class="remove-btn" style="display:none;" title="Remove Voice Message">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                        <div id="voice-status" class="voice-status"></div>
+                        <audio id="voice-preview" controls style="display:none; margin-top: 10px;"></audio>
+                    </div>
+                    <div class="cart-summary-preview" style="display: none;">
+                        <h4>Your Cart Summary</h4>
+                        <div class="cart-items-preview"></div>
+                        <div class="cart-total-preview"></div>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Viewer Modal -->
+    <div class="image-viewer">
+        <div class="viewer-content">
+            <button class="close-viewer"><i class="fas fa-times"></i></button>
+            <canvas id="watermark-canvas" style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:2;"></canvas>
+            <img src="" alt="Full size image" style="position:relative; z-index:1;">
+            <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            <button class="viewer-add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+                Add to Cart
+            </button>
+            <button class="viewer-share-btn">
+                <i class="fas fa-share-alt"></i>
+                Share
+            </button>
+        </div>
+    </div>
+    
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Shopping Cart</h2>
+                <button class="close-cart"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be added here dynamically -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-price">$0.00</span>
+                </div>
+                <button class="checkout-btn">Contact to seller</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Photography by Subhadip Ghosh. All rights reserved.</p>
+    </footer>
+
+    <script src="gallery-images.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
